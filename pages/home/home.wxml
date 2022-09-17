@@ -45,7 +45,7 @@
   <view class="tabs">
     <van-tabs>
       <van-tab title="功能 1">
-        <view class="tabs-coontent">112</view>
+        <view class="tabs-coontent"> 功能2</view>
       </van-tab>
       <van-tab title="功能 2">
         <view class="tabs-coontent">454</view>
