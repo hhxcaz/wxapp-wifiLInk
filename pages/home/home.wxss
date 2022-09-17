@@ -1,0 +1,85 @@
+/* pages/home/home.wxss */
+.home {
+}
+.swiper {
+  height: 38vh;
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  overflow: hidden;
+}
+.swiper-item {
+  height: 100%;
+  text-align: center;
+  line-height: 120px;
+  background: pink;
+}
+.piece  {
+  position: relative;
+  margin: 0 34rpx;
+  margin-top: -190rpx;
+  padding: 20rpx 30rpx;
+  border-radius: 40rpx;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow:  1px 2px 5px #cccccc;
+}
+.piece .piece-title {
+  display: flex;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #cccccc;
+}
+.piece .piece-img {
+  margin-right: 40rpx;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.piece .piece-name {
+  font-size: 36rpx;
+  line-height: 130rpx;
+}
+.piece .piece-box {
+  display: flex;
+}
+.piece-box .piece-boxLeft,  .piece-boxRight {
+  flex: 1;
+  display: flex;
+  padding: 30rpx;
+}
+.piece-box .piece-boxLeft {
+  border-right: 1.2px solid #cccccc;
+}
+.piece-box .balance, .extension {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+.piece-box  .balance-title {
+  margin-bottom: 8rpx;
+  font-size: 32rpx;
+}
+
+.advertisement {
+  margin: 0 10rpx;
+  margin-top: 30rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  height: 360rpx;
+  color: #2c2a2a;
+  text-align: right;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 20rpx;
+}
+.tabs {
+  margin: 0 10rpx;
+  margin-top: 30rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  overflow: hidden;
+  box-shadow: 1px 2px 5px #cccccc;
+}
+.tabs .tabs-coontent {
+  min-height: 300rpx;
+  text-align: center;
+  line-height: 2;
+}

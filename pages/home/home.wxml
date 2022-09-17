@@ -1,0 +1,57 @@
+<view class="home">
+  <!-- 轮播图 -->
+  <swiper autoplay
+  circular interval="1500"
+  class="swiper">
+    <block wx:for="{{5}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item">{{item}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 个人名姓片 -->
+  <view class="piece">
+    <view class="piece-title">
+      <view class="piece-img" bindtap="getUserProfile">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="piece-name">
+        <open-data type="userNickName"></open-data>
+      </view>
+    </view>
+    <!-- 名姓片下面的模块 -->
+    <view class="piece-box">
+      <view class="piece-boxLeft">
+        <van-icon name="paid" size="36px" />
+        <view class="balance">
+          <view class="balance-title">余额</view>
+          <view>12.0元</view>
+        </view>
+      </view>
+      <view class="piece-boxRight">
+        <van-icon name="cluster-o" size="36px" />
+        <view class="extension">
+          <view class="balance-title">推广</view>
+          <view>12人</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 广告模块 -->
+  <view class="advertisement">
+    广告
+  </view>
+  <!-- 底部内容 -->
+  <view class="tabs">
+    <van-tabs>
+      <van-tab title="功能 1">
+        <view class="tabs-coontent">112</view>
+      </van-tab>
+      <van-tab title="功能 2">
+        <view class="tabs-coontent">112</view>
+      </van-tab>
+    </van-tabs>
+  </view>
+</view>
+<!-- 底部tabber按钮栏 -->
+<tabbar />
